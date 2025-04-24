@@ -1,0 +1,8 @@
+pytest
+pylint
+jupyter
+pandas
+nbval
+click
+flask
+requests
