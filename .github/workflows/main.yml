@@ -1,14 +1,14 @@
 name: Python application test Github Actions
 on: [push]
-jobs: 
+jobs:
     build:
         runs-on: ubuntu-last
-        steps: 
+        steps:
         - uses: actions/cheickout@v2
         - name: Set Up Python 3.12.1
           uses: actions/setup-python@v1
           with:
-            python-version: 3.12.1
+            python-version : 3.12.1
         - name: install dependencies
             run:|
                 make install
