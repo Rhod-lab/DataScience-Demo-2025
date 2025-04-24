@@ -14,7 +14,4 @@ jobs:
                 make install
         - name: Test with pytest
             run:|
-                pip install pytest
-                pytest
-            run:|
                 make test
